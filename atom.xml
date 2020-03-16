@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>只差一个程序员了</title>
+  
+  <subtitle>左脑写代码，右脑画人生</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.any1024.com/"/>
+  <updated>2020-03-16T03:16:14.061Z</updated>
+  <id>http://www.any1024.com/</id>
+  
+  <author>
+    <name>程一初</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.any1024.com/2020/03/16/hello-world/"/>
+    <id>http://www.any1024.com/2020/03/16/hello-world/</id>
+    <published>2020-03-16T03:16:14.061Z</published>
+    <updated>2020-03-16T03:16:14.061Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
