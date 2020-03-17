@@ -1,0 +1,1282 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="系统思考, 学习, 成长, 干货, 技术, 读书, 笔记, 商业, 创新, 思维">
+    <meta name="description" content="学习的本质是模仿，创造的关键在洞察">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160648630-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-160648630-1');
+</script>
+
+
+    <title>系统思考 | 只差一个程序员了</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="只差一个程序员了" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">只差一个程序员了</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">只差一个程序员了</div>
+        <div class="logo-desc">
+            
+            学习的本质是模仿，创造的关键在洞察
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，可联系管理员VX：ichengplus6');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">系统思考</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-03-11
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    10.6k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    36 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><a name="U2IVh"></a></p>
+<h1 id="书籍信息"><a href="#书籍信息" class="headerlink" title="书籍信息"></a>书籍信息</h1><p>全书名：<a href="https://book.douban.com/subject/25963524/" target="_blank" rel="noopener">《系统思考》</a><br>英文名：《SEEING THE FOREST FOR THE TREES》<br>作者名：[美]丹尼斯·舍伍德<br>译者名：邱昭良，刘昕</p>
+<p><a name="df368884"></a></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本书的分类标签是“企业”、“管理”，原因是里面讲述了许多商业管理的案例分析。但系统思考这项能力绝不仅仅在企业管理领域有着重要作用，在认知领域，它依然有着耀眼的光芒。</p>
+<p>系统思考可以帮助我们打破原有的思维定势，以纵观全局的视角，看清事件背后的结构和逻辑。</p>
+<p><a name="oE2fd"></a></p>
+<h1 id="一、整体思考的有效工具"><a href="#一、整体思考的有效工具" class="headerlink" title="一、整体思考的有效工具"></a>一、整体思考的有效工具</h1><p>“系统思考”中的“系统”原文为“systemic”，是“整体”的意思，而不是“systematic”系统化的意思。</p>
+<p>这是系统思考的关键所在，许多第一次接触系统思考的人以为它又是一套逻辑分析工具，实际上，它是一种整体思考的有效工具。</p>
+<p><a name="fz3J4"></a></p>
+<h2 id="1-1-中西方思考方式"><a href="#1-1-中西方思考方式" class="headerlink" title="1.1  中西方思考方式"></a>1.1  中西方思考方式</h2><p>在中国人的社会里，当你拿到一个物品时，大都会问这是从哪里来的？把它看作一个完整的东西，来探讨它的历史渊源以及与周遭环境的互动关系。</p>
+<p>然而在西方人的文化里，他们会问这是由什么组成的？把它当作是一些元素的集合体，进而去分析它的组成成分及比例。</p>
+<p>随着西方管理理念的风行，西方的思考方式逐渐被我们接受并推崇起来，我们把企业拆解成产（生产）、销（销售）、人（人事）、发（研发）、财（财务）五大部分，彼此独立发展，少有联系与互动。</p>
+<blockquote>
+<p>在日常的工作中，我们也潜移默化地认为只要每个人、每个部门都把目标达成，整个组织的目标就会达成。而一旦组织的目标没有达到，我们就会进行追溯，自然而然地反推一定是某个部门或个人没有做好，似乎把这个“害群之马”找出来，问题就迎刃而解了。</p>
+</blockquote>
+<p>如果你经历过这样的事情，就会知道大多数时候，我们很难找到这个罪魁祸首，似乎每个人、每个部门都有问题。其实，很少有人会故意去搞破坏，问题出在组织这个系统本身，关键就在于人们把整体当作部分的总和的片段式思考方式，以及由此导致的对人与人、人与部门、部门与部门间交互关系的忽略。</p>
+<p>我们习以为常的“找原因、消除原因”（或“找问题、解决问题”）的做法，并不适用于高度复杂的组织环境。而这一点，就是西方思考方式导致的割裂式世界观。</p>
+<p>系统思考恰恰与割裂式的西方思考方式不同，它更接近中国传统的思考方式，更讲究整体及内外联系。</p>
+<p><a name="Av6a6"></a></p>
+<h2 id="1-2-“竖井”式思维"><a href="#1-2-“竖井”式思维" class="headerlink" title="1.2  “竖井”式思维"></a>1.2  “竖井”式思维</h2><blockquote>
+<p>我有一个表弟，学过一段时间的厨师，在这期间，有一段时间手掌出现间歇性麻痹，使不上力，各种贴膏、药酒轮番上阵，但根本没有效果。由于无法握紧厨具，工作受到严重影响。换了好几个医院检查，最后才发现问题并不在手上，而是脊椎有点变形。而脊椎变形的原因，是因为厨房的操作台设计不合理，身高180的他工作的时候总是使用别扭的姿势，让背部长期处于弯曲，最后脊椎变形，压迫手部神经，才导致手掌麻痹。</p>
+</blockquote>
+<p>我们经常用“头痛医头，脚痛医脚”来形容对存在问题的盲目补救，我这位厨师朋友在找到根因之前就是这样，贴膏药、擦药酒、拍片，问题出在手上就以为导致问题的原因也出在手上，以为不是肌肉有问题，就是韧带出了毛病，没有将问题放在人的身体这个系统中去思考，更没有对身体系统与周围环境的交互关系进行分析。</p>
+<p>这种单向、局限的，简单地将问题从“这里”转移到了“那里”的割裂思维方式，就是“竖井”式思维。</p>
+<p><a name="X6VvI"></a></p>
+<h2 id="1-3-组织“近视”"><a href="#1-3-组织“近视”" class="headerlink" title="1.3  组织“近视”"></a>1.3  组织“近视”</h2><p>经常与“竖井”式思维并发存在的，就是组织“近视”，它是指人们对“现在”问题的补救不当，导致“未来”一个更大的问题出现的错误思维。</p>
+<blockquote>
+<p>公司的销售部门抱怨设计部门的产品设计与市场脱节，设计部门指责销售部门不能理解产品设计理念并及时反馈市场需求。</p>
+<p>此时不管你是着手解决设计部门的问题还是销售部门的问题，甚至努力协调两个部门的关系，都无济于事，未来很可能会出现整个公司的稳定、甚至存续问题。</p>
+</blockquote>
+<p>组织“近视”与“竖井”思维的区别在于，前者忽略了现在与未来的连接关系，后者忽略了部分与整体的连接关系，共同点在于两种思维都是只见树木，不见森林。</p>
+<p><a name="8ctvt"></a></p>
+<h2 id="1-4-系统的定义"><a href="#1-4-系统的定义" class="headerlink" title="1.4  系统的定义"></a>1.4  系统的定义</h2><p>本书用“系统”来表示“一群相互连接的实体”，这是对连接的一种强调性定义。因此要理解和掌握系统思考，首先必须要明白连接的重要性。</p>
+<p>在这个定义下，系统的对立面可以理解为“堆”（heap），“堆”跟系统的相同之处在于它也是由很多实体构成，但“堆”的实体间没有连接。</p>
+<blockquote>
+<p>比如，碰巧在某个时间待在同一个地点的人的集合（凑巧在一辆巴士上旅游的人们），就构成了一个“堆”（或者说一个随机的群体），因为他们之间没有相互连接；相反，在一起工作的人，比如一个部门或一个团队，一旦这些人之间建立了连接（分工与协作），这个群体就可以称为一个系统。</p>
+</blockquote>
+<p>因此，对系统的研究实际上就是对构成系统的实体之间连接的研究。</p>
+<p><a name="pJBoB"></a></p>
+<h1 id="二、割裂式思维"><a href="#二、割裂式思维" class="headerlink" title="二、割裂式思维"></a>二、割裂式思维</h1><p>将一头大象分成两半，并不能得到两头小象。割裂式思维不仅会斩断系统中各实体间的连接，更会切断构成部分的实体与系统这个整体的联系。</p>
+<p><a name="nqSSC"></a></p>
+<h2 id="2-1-反系统思考的动因"><a href="#2-1-反系统思考的动因" class="headerlink" title="2.1  反系统思考的动因"></a>2.1  反系统思考的动因</h2><p>人们总是倾向于仅仅依靠对系统中各个实体的了解，就能从整体上理解，进而预测、影响，甚至最终控制系统。</p>
+<p>这就好比你只不过懂了几个K线的概念，或者读过某个上市公司的财务报表，看了某个操盘大师的分析，就妄想预测这家公司股票的走势，并从中一举获利一样，最终的结果就是成为众多韭菜之一，被别人收割。</p>
+<p>之所以人们有这样的思维倾向，主要有三方面原因：</p>
+<p><a name="xOxmP"></a></p>
+<h3 id="2-1-1-非常人性化"><a href="#2-1-1-非常人性化" class="headerlink" title="2.1.1  非常人性化"></a>2.1.1  非常人性化</h3><p>由于生活在简单的世界中远比生活在复杂的世界中来得轻松，所以，有时候我们不希望看清楚这种复杂性。我们倾向于否认复杂性的存在，试图相信我们的行动总是会产生我们想要的效果，而且没有副作用，即便是存在着明确的、反方向的证据。</p>
+<p><a name="RyAFj"></a></p>
+<h3 id="2-1-2-出于务实的考虑"><a href="#2-1-2-出于务实的考虑" class="headerlink" title="2.1.2  出于务实的考虑"></a>2.1.2  出于务实的考虑</h3><p>理解一些小而简单的事情肯定要比从整体上理解那些复杂的事情更容易。</p>
+<p><a name="DRh5f"></a></p>
+<h3 id="2-1-3-科学研究方法的副产品"><a href="#2-1-3-科学研究方法的副产品" class="headerlink" title="2.1.3  科学研究方法的副产品"></a>2.1.3  科学研究方法的副产品</h3><p>在过去的四个世纪中，人们大量采用化整为零、各个击破的科学研究方法，通过精心设计一个实验，控制特定的条件，细心观察实验所产生的结果。这种通过剖析目标对象的某些特殊部分，从而达到对其进行详细研究的方法，在科学研究中取得了成功。</p>
+<p>因此，大多数时候，我们都倾向于使用科学研究的方式来解决遇到的问题，即使我们无法控制特定的条件，甚至无法观察到问题的很多细节。</p>
+<p><a name="LpPrL"></a></p>
+<h2 id="2-2-连接引发复杂"><a href="#2-2-连接引发复杂" class="headerlink" title="2.2  连接引发复杂"></a>2.2  连接引发复杂</h2><p>想象一下，假如你手中正握着一枚硬币，如果你松开手，会发生什么？很简单：它会掉到地上。</p>
+<blockquote>
+<p>作为对比，想象一下，假如你扔的不是一枚硬币，而是将你的一种产品的价格降低了5%，又会发生什么呢？这次不是那么简单了——你降价这个单一的动作可能会引发无数不同的结果：</p>
+<ul>
+<li>可能1：从导致销售量的增长（按照最简单的经济逻辑），到触发一场“价格战”；</li>
+<li>可能2：从让一些顾客因为花费更少而高兴，到另外一些顾客因为失去了奢侈品的感觉而疏远这一产品；</li>
+<li>可能3：从因为你达到本季度的目标而得到晋升，到公司3年后的破产（你的成功让你得到了更多的关注，因此在你升职后不久，你就被你们公司的主要竞争对手“猎头”了，而你同时也带走了你的团队，从而剥夺了你原来公司的主要市场力量）。</li>
+</ul>
+</blockquote>
+<p>扔一枚硬币和降低价格之间的差异就在于，扔掉一枚硬币所发生的环境非常简单，而降价这一举动所处的环境却极端复杂——这是一种由连接所引发的复杂。</p>
+<p>当你扔一枚硬币时，这一事件所牵涉的实体仅仅包括你自己、那枚硬币和地面。其他的任何人、任何事物都没有直接牵涉其中，这一事件所发生的环境非常有限。</p>
+<blockquote>
+<p>但是，当你降低产品价格时，整个环境却迥然不同。很多实体被牵涉其中，它们都被这样或那样的联系连接在一起。</p>
+<p>你的客户和产品价格因他们的购买习惯而连接在一起；你的竞争对手和产品价格因市场行为而连接在一起；你的同事和价格因降价对业务本身的冲击，以及你因此而获得的地位优势连接在一起；政府和价格因宏观调控而连接在一起……不一而足。</p>
+<p>降价这件事情所牵涉的环境几乎是没有边界的，它以波纹效应的形式在近乎无限的时间和空间里传播着。</p>
+</blockquote>
+<p>这就难怪为什么降价的后果比扔一枚硬币难解释多了。</p>
+<p>归根结底，这都是因为连接的存在。只有几个事件参与、在时间和空间上都受限的事情就易于预测。而那些难以预测的事情通常都涉及很多紧密连接的实体，而且因果链在时间和空间两个维度都扩展得很广。</p>
+<p>连接，让这个世界变得复杂。</p>
+<p><a name="P4ZgK"></a></p>
+<h2 id="2-3-整体与部分"><a href="#2-3-整体与部分" class="headerlink" title="2.3  整体与部分"></a>2.3  整体与部分</h2><blockquote>
+<p>有一个城市，为了解决个别道路拥堵问题，请来了专家。专家一分析，发现是由于公交车频繁靠边上下客，导致电动车和私家车随之减速，接着私家车变道、电动车加塞等问题出现，于是出现道路拥堵。</p>
+<p>接着专家提出了BRT（快速公交系统，大家自行百度），自此以后公交车不用靠边了，本以为道路拥堵应该得到解决，但情况并未好转，拥堵依然存在。原来BRT需要长期占用双向两条车道作为公交车专用道，而站台前后更是占用了双向4条车道，因此使得原本就不宽的6车道道路，现在变成4车道，遇到公交站台甚至变成了2车道。</p>
+</blockquote>
+<p>由于BRT并未解决拥堵问题，因此该市只在个别道路进行试点建设，并未进行全面推广。</p>
+<p>发现是公交车导致的拥堵，就解决公交车的问题。听起来很有道理，结果却事与愿违。原因在于，人们忽略了交通本身是一个系统，即使聚焦到某一条路，这条路上所有实体，也构成了一个交通子系统。但凡是系统，就必定存在连接。</p>
+<p>BRT这个案例，就是仅着眼于部分——公交车停靠造成拥堵，忽略了交通系统中各部分（公交车、私家车、电动车、自行车、道路宽度、附近居住居民类型、楼房功能分布等）之间连接的典型。</p>
+<p>当面临复杂问题时，我们的直觉反应就是将感兴趣的系统整体划分成几个部分，通过研究这些部分，最终以对这些部分的知识为基础来理解系统整体。这种分割式的思考模式，确实能够让我们对这些“部分”有所了解，但通常很难针对系统整体得出深刻的见地。</p>
+<p>原因在于：</p>
+<p>第一，将系统整体分割通常破坏了你所试图研究的系统。由于连接的存在，如果你破坏了系统内的连接，你就破坏了系统本身。</p>
+<p>把交通系统中的公交车部分剥离出来，进而着手解决公交车造成的拥堵问题，就切断了其他部分与公交车之间的连接，最终破坏了原来交通系统的整体性。</p>
+<p>第二，很多系统整体上表现出的特征，是它们的任何组成部分都不具备的。因此，对任何单一组成部分的研究，无论如何详细彻底，都不可能辨识出这类系统整体层次上的特征，更别提了解它们的行为了。</p>
+<p>比如人体系统能够平衡地走路，就是一个系统整体层次上的特征。参与走路这个动作的所有部分，单独拿出来，都不可能表现出“平衡地走路”这个特征。</p>
+<p>因此，如果我们试图理解系统及其特性，就必须维持系统的连接，并从整体上去研究系统。</p>
+<p><a name="LBLXZ"></a></p>
+<h2 id="2-4-连接的意义"><a href="#2-4-连接的意义" class="headerlink" title="2.4  连接的意义"></a>2.4  连接的意义</h2><p>当我们意识到自己处在分割式的思考模式下找答案时，我们必须停下来彻底检视我们习以为常的思考方式（这种思考模式可能就是造成问题的源头），并将视野拉高、拉广，可能需要改变看事情的角度，而不是改变做事情的方法。</p>
+<p>如果你希望了解一个系统，并进而能够预测它的行为，那么，就非常有必要将系统作为一个整体来研究，千万不能割断其中的连接。</p>
+<p>如果你希望影响或控制系统的行为，你必须将系统作为一个整体来采取行动。在某些地方采取行动并希望其他地方不受影响的想法注定要失败——这也就是连接的意义所在。</p>
+<p><a name="OxjiY"></a></p>
+<h1 id="三、部分与整体"><a href="#三、部分与整体" class="headerlink" title="三、部分与整体"></a>三、部分与整体</h1><p>亚里士多德在《形而上学》（Metaphysica）中指出：“任何由多个部分组成的事物都不只是那些组成部分的简单相加，而是作为一种超过各部分的整体而存在的，这中间必有原因。”</p>
+<p><a name="YmUI1"></a></p>
+<h2 id="3-1-涌现"><a href="#3-1-涌现" class="headerlink" title="3.1  涌现"></a>3.1  涌现</h2><p>有时候，复杂系统会表现出一种特别的、与系统自身结构相关的涌现特征，这是复杂系统在整体层面上才表现出来的特征。要理解什么是涌现，我们先来看一个例子。</p>
+<blockquote>
+<p>蚂蚁是一种神经系统非常简单的昆虫，它们只能进行简单的思考。然而，当数量达到一定规模的蚂蚁产生交互作用后，它们就会形成等级森严、分工缜密的群体组织。</p>
+<p>研究表明，蚁后并没有直接给所有的蚂蚁下达命令，但大量的蚂蚁却能够完成觅食、筑巢、进攻、防御、繁殖等分工，体现出高度的组织性。这种组织性，就是蚁群系统的涌现特征。</p>
+</blockquote>
+<p>所谓涌现，就是系统中的实体根据一定规则进行交互作用，最终构成一个整体时，系统层面诞生的新的属性和规律，它是复杂系统表现出来的超出任一部分所具备特征的系统特征。</p>
+<p>涌现并不破坏单个部分的规则，但是用部分的规则却无法加以解释。关于涌现，我们只能理解为“系统整体大于部分之和”。</p>
+<p>忽视涌现，就不可能真正理解一个系统的运行真相。系统思考讲究从整体层面出发，就是因为只有把系统作为整体来观察，才能看到系统的涌现特征。“竖井”思维和组织“近视”，都忽视了涌现，所以才只见树木，不见森林。</p>
+<p><a name="lVS8e"></a></p>
+<h2 id="3-2-自组织"><a href="#3-2-自组织" class="headerlink" title="3.2  自组织"></a>3.2  自组织</h2><p>复杂系统的第二个重要特征，就是自组织。</p>
+<blockquote>
+<p>比如一个由骑车人和自行车构成的系统。自行车不能自我平衡，而且在静止的情况下，自行车和骑车人在一起也不能平衡。但是，当系统动起来之后，当骑车人为系统注入动力，从而让自行车前进的时候，自行车和骑车人就在突然之间与地面垂直。</p>
+<p>骑车人和自行车就这样形成了一个动态系统，并且展示出一种稳定的结构——平衡。类似的动态稳定的例子还有很多，蚁群的生存是动态的，但组织结构稳定；鸟群的盘旋是动态的，但阵型结构稳定；飓风的漩涡是动态的，但旋转受力稳定。</p>
+</blockquote>
+<p>这种稳定的动态结构就被称为自组织，是很多复杂系统的另一个重要特征。</p>
+<p>对于一个外部观察者而言，自组织系统最明显的属性之一就是高度的有序。与随机的人群相比，鸟群具有更好的秩序；飓风形成的旋涡拥有一种特定的而不是随意的结构；运动中的自行车和骑车人保持竖直的姿态，而不是在地面上随机地倒卧。这种高度有序的结构通常会保持很长的时间。</p>
+<p>系统思考要求我们在观察和分析一个系统时，要留意系统的自组织特征，关注其动态结构的稳定情况，才能有效预测或者影响系统的发展方向。</p>
+<p><a name="ouBxl"></a></p>
+<h2 id="3-3-反馈"><a href="#3-3-反馈" class="headerlink" title="3.3  反馈"></a>3.3  反馈</h2><p>一支顶级的足球队由11个配合默契、独立思考、同时追求个人成功的球星组成，每个球星的价值都要比只“做好自己的事”要大。如果每个球星都真的只“做好自己的事”，控球但不传球，只愿意自己站在聚光灯下，不愿队友们得到机会，不肯补队友失误的缺漏，这样的球队肯定会输得很惨。</p>
+<p>因此，为了使球队这个整体涌现出高水平，个体的行为就必须受到约束。每个球员在任何时刻准备进行选择时（“我应该自己带球通过，还是应该传球？”），他所做出的选择都会是从球队的角度出发的最佳选择（“我还是传球吧。”）。</p>
+<p>为了促成这种情况的发生，每个球员都必须不停地接收和处理信息流：关于对方球员队形的信息，自己队友站位的信息，以及教练的指示等等。如果给一名球员戴上眼罩，让他无法得知场上的局势，他就无法发挥作用。正是这种对信息的持续处理，结合各位球员自我约束的个人意愿，使得整个球队能够作为一支光芒四射的优秀球队绽现辉煌。<br>这种系统内外部的信息流就是“反馈”。</p>
+<p>任何系统都具有反馈特征，反馈的目的在于维持系统在自组织状态下的持续运行。</p>
+<blockquote>
+<p>蚁群系统间的反馈，让单只蚂蚁知道自己应该去做什么，不管是觅食、筑巢还是繁殖，所有的行为都是为了维持蚁群系统的自组织。</p>
+<p>如果没有反馈，蚁后就没有食物，蚁群也不会繁殖，蚁群也不会抵御外来的威胁，那蚁群的动态结构就变得不稳定，自组织性就会溃散。</p>
+</blockquote>
+<p>换句话说，反馈是自组织的前置条件，没有反馈，系统无法保持自组织。</p>
+<p><a name="0tkOk"></a></p>
+<h2 id="3-4-自修正"><a href="#3-4-自修正" class="headerlink" title="3.4  自修正"></a>3.4  自修正</h2><p>在很多自组织系统中，反馈经常和另一种系统特征——自修正——密切相关。</p>
+<p>如果自行车和骑车人的系统遇上了一个小小的颠簸，系统就会摇晃，动态结构就会受到影响，但是它很快就会再次稳定下来，因为系统具有自修正的性质，无论外界出现怎样的干扰，它都会主动维持有序、自组织的状态。</p>
+<p>这一切正是通过反馈取得的：骑车人感受到了摇晃，他就轻微地调整重心来保持平衡。这一自修正机制在处理小颠簸时非常有效，但是如果颠簸非常大，骑车人和自行车就可能会摔倒。</p>
+<p>用系统的语言来描述这一切，就是：最初处于有序、动态平衡状态的自组织系统，受到了其内部自修正机制无法处理的外部冲击，系统就会陷入混沌状态（自行车和骑车人倾斜歪倒），直到系统进入另一个稳定平衡态——通常是静态平衡，而不是动态平衡（自行车和骑车人横躺在地上）。</p>
+<p>很多生物系统都是自修正的，生物学家和生理学家将其称之为“体内平衡”。</p>
+<blockquote>
+<p>比如，你我身体中都有一系列的机制来维持我们的体温稳定在大约36.9℃。如果太低，我们会开始打冷颤，从而使体内产生热量；如果太热，我们会开始出汗，从而带走一些热量。</p>
+</blockquote>
+<p>但是，自修正是有范围的，就像我们人体的天然机制同样具有天然极限：如果寒冷的时间过长，体温就会降低；如果实在太热了，我们可能会犯心脏病。如果情况一直持续的话，我们就会从一个动态平衡——活着，进入静态平衡——死亡。</p>
+<p><a name="EEhgF"></a></p>
+<h2 id="3-5-时滞"><a href="#3-5-时滞" class="headerlink" title="3.5  时滞"></a>3.5  时滞</h2><p>继续看自行车和骑车人这个系统，如果骑车人边骑车边打电话，突然前轮碾过一道深坑，会出现什么情况呢？没错，骑车人很有可能会摔倒，然后这个系统就进入混沌状态，最后进入静态平衡——摔倒。</p>
+<p>用系统思考的话来说，就是骑车人没有时刻注意路况，导致系统在进行反馈时出现了不畅，进而使得系统的动态变化过于激烈，以致超出了自修正的极限，从而导致动态平衡被打破。</p>
+<p>这个过程中，反馈出现的不畅，我们通常称为<strong>时滞</strong>。</p>
+<p>很多复杂系统的反馈都存在各式各样的时滞，这就解释了为什么很多对系统施加的行为总是不能立竿见影。</p>
+<p>因此，在进行系统思考时，必须将可能出现的时滞计算在内。否则，不管你是想预测或是影响，甚至控制一个系统，你都会错过“最佳”行动时机。</p>
+<p><a name="OrRY0"></a></p>
+<h1 id="四、系统循环图"><a href="#四、系统循环图" class="headerlink" title="四、系统循环图"></a>四、系统循环图</h1><p>系统思考的主要工具，就是系统循环图，这个图的本质是由一条条小回路组成的一个大回路，当我们学会判断回路的特性时，我们就能用系统思考的方法来观察、分析和解决问题了。</p>
+<p><a name="RwiwF"></a></p>
+<h2 id="4-1-反馈回路"><a href="#4-1-反馈回路" class="headerlink" title="4.1  反馈回路"></a>4.1  反馈回路</h2><p>反馈就是信息流，当信息流进入系统并最终影响系统做出反应时，就完成了一次反馈回路。</p>
+<blockquote>
+<p>比如你要给一个杯子倒水，目标是倒满半杯。于是你手所处的位置、你倒水的速率、杯中的水位、你的眼睛对杯中水位的观察，以及你的大脑对你的手发出的指令，就共同组成一个反馈回路。</p>
+<p>当你在向杯子中倒水的时候，水位上涨的信息流通过眼睛进入你的大脑，随着水位渐渐逼近目标水位，你的大脑会让你握水壶的手逐渐将水壶放平，慢慢降低倒水的速率，直至停止向杯中倒水。</p>
+</blockquote>
+<p>这个：倒水（提升倒水速率）→水位上涨→眼睛观察→大脑发指令→倒水（降低倒水速率）的过程，就构成了一个简单的反馈回路。</p>
+<p>我们每天都不假思索地做的许多事情，也和反馈回路有关系。</p>
+<blockquote>
+<p>就好比吃饭，你并不是看到什么能吃的都吃，你会根据身体饥饿的程度、当前的时间、未来10-15分钟急着要做的事等信息流来判断是否吃东西，甚至根据心情、前一顿吃的菜、跟谁吃等信息流来决定吃什么。</p>
+</blockquote>
+<p>总之，反馈回路无处不在，如果离开反馈回路，即使是像倒水这样简单的事情我们都无法完成，你可以蒙上眼睛倒一次试试。</p>
+<p>如果你破坏了这个反馈——比如蒙住眼睛，实际上你就破坏了系统。</p>
+<p>对于现实、复杂的问题，最好用相互连接的反馈回路所形成的网络来描述，这就是系统循环图。</p>
+<p><a name="4FlPx"></a></p>
+<h2 id="4-2-因果连接"><a href="#4-2-因果连接" class="headerlink" title="4.2  因果连接"></a>4.2  因果连接</h2><p>要学会读懂一个复杂的系统，就要能逐个辨别出系统中的每一个反馈回路，以及它们之间相互联系的过程。这是我们能够处理真实世界中复杂问题的主要方式之一。</p>
+<p>每一个反馈回路都是由系统中各个部分之间的连接组建而成的。</p>
+<p>在复杂系统中，我们重点关注因果连接，A导致了C，A对C来说就很重要。如果B影响C，但这种影响几乎不改变C，我们就不关注B。</p>
+<blockquote>
+<p>比如倒水的回路中，你在烈日下倒水和在室内倒水，肯定会有一定的区别。烈日下水的蒸发会比在室内快，因此当时间单位足够小的时候，你在烈日下倒水的时间会比在室内长。</p>
+<p>但是，当你选择开展倒水的回路时，你会考虑是在烈日下还是在室内进行吗？当然不会，因为水的蒸发对我们这个回路的影响微乎其微；两种场合所造成的回路时间长短差异完全可以忽略不计。</p>
+<p>换句话说，不管是在烈日下还是在室内开展倒水回路，都不会对这个回路的结果——倒满半杯水，产生明显的影响，因此我们不关注倒水回路发生的地点是在烈日下还是在室内。</p>
+</blockquote>
+<p>这个复杂的世界总是充斥着各种连接，我们所感兴趣的系统也因这种无处不在的连接和形形色色的反馈回路而显得越发复杂。</p>
+<p>系统思考并不需要人们去关注每一个细节，实际上我们也做不到。系统思考只要求我们去关注所感兴趣的系统中的因果连接，其余的都可以忽略不计。</p>
+<p><a name="W90Ku"></a></p>
+<h2 id="4-3-两种连接"><a href="#4-3-两种连接" class="headerlink" title="4.3  两种连接"></a>4.3  两种连接</h2><p>在系统思考方法中，因果连接只有S型连接和O型连接两种。</p>
+<p>如果“原因”方面有所上升，导致“结果”方面的上升超出了在“原因”不变的情形下自然变动的增幅；或者如果“原因”方面有所下降，导致“结果”方面的下降超出了在“原因”不变的情形下自然变动的降幅，则该连接是S型连接，特点是原因和结果同向变动。</p>
+<p>如果“原因”方面有所上升，导致“结果”方面的下降超出了在“原因”不变的情形下自然变动的降幅；或者如果“原因”方面有所下降，导致“结果”方面的上升超出了在“原因”不变的情形下自然变动的增幅，则该连接是O型连接，特点是原因和结果反向变动。</p>
+<p>这两个概念虽然简单，但有一个关键点需要注意，那就是“原因不变的情况下自然变动的幅度”，必须超过这个“幅度”，才能说这个连接是有效的。</p>
+<p>你骑单车下坡，车速越来越快，除非你用力踩脚踏，使得单车的速度增长幅度超过它正常下坡的速度增长幅度的时候，“你用力踩脚踏→车速增加”才是有效的，此时这是一个S型连接。</p>
+<p>如果骑单车到了平地，车速会越来越慢，除非你用力刹车，使得单车的速度降低幅度超过它正常滑行的速度降低幅度时，“你用力刹车→车速降低”才是有效的，此时这是一个O型连接。</p>
+<p><a name="dhoM0"></a></p>
+<h2 id="4-4-增强回路"><a href="#4-4-增强回路" class="headerlink" title="4.4  增强回路"></a>4.4  增强回路</h2><p>由因果连接组建而成的回路就是因果回路，这也是我们在系统思考方法中唯一需要关注的回路。因果回路有且仅有两种基本类型：增强回路和调节回路。</p>
+<p>我们先来看看什么是增强回路。</p>
+<p>回路随着每次循环而不断得到加强（或减弱，即单向作用），这种情况被称为正反馈，与此相应的系统循环图就被称为正反馈回路或增强回路。</p>
+<p>回路没有好坏之分，增强回路也是如此。增强回路可以是一个良性循环：业务增长→知名度提高→观众认可度增加→业务增长；也可以是一个恶性循环：考试成绩差→听不懂→上课不专心→知识掌握不牢靠→考试成绩差。</p>
+<p>正反馈回路的“正”是指回路作用方向的一致性。与之相对的，就是负反馈回路，又称调节回路。</p>
+<p><a name="KnhQb"></a></p>
+<h2 id="4-5-调节回路"><a href="#4-5-调节回路" class="headerlink" title="4.5  调节回路"></a>4.5  调节回路</h2><p>与增强回路相反，调节回路的特点是追求某一个平衡的目标，它不存在增强回路体现出的越来越强或者越来越弱的特征，反而是一种围绕某个目标而上下波动的状态。</p>
+<p>我们来看看这个调节回路：考试成绩差→听不懂→上课不专心→参加辅导班→知识掌握得牢靠→考试成绩变差。</p>
+<p>第1、2、3、4个箭头，都是S型连接，即原因的增强导致结果的增强。如考试成绩越差，上课就越听不懂老师讲什么，越听不懂以后就越容易分心，越分心就越需要参加培训班，越参加培训班知识掌握就越牢靠，这四个连接都是S型的，即原因的增强导致结果的增强。</p>
+<p>关键我们来看最后一个连接，“知识掌握地越牢靠→考试成绩变差”，这里与我们平常的表达习惯有点不同。正常的表达是“知识掌握地越牢靠→考试成绩变好”，但如果我们这么改，那么最后一个节点就无法与第一个节点“考试成绩变差”连接起来，那这个回路就无法形成闭环。</p>
+<p>因此，为了形成闭环，我们要使用“考试成绩变差”这个表达来进行连接，在此基础上，箭头代表的意思就不是S型连接了，而是O型连接，即随着“知识掌握得牢靠”程度的增加，“考试成绩变差”的情况就逐渐好转，不再持续地变差，这种原因的增幅导致结果的降幅的情况，就是O型连接。为了显示方便，我们用红色箭头来表示O型连接。</p>
+<p>这个调节回路的目标，就是让“考试成绩变差”的情况消失，追求一种“不差”的平衡。</p>
+<p>调节回路呈现出实现某个目标的行为，整个系统通常会向着一个外部给定的目标汇聚。</p>
+<p><a name="CWd63"></a></p>
+<h2 id="4-6-回路判定"><a href="#4-6-回路判定" class="headerlink" title="4.6  回路判定"></a>4.6  回路判定</h2><p>学会了增强回路和调节回路，几乎所有人都会有一个疑惑，这两种回路怎么来判定呢？</p>
+<p>要知道，只有我们正确地判定系统的各个连接的类型，以及其组成的回路的类型，我们才能正确地建立系统循环图，进而正确地使用系统思考的方法。</p>
+<p>作者经过研究，总结出了一套极其简单的方法，由于这个方法实在太实用，所以我一说大家就能明白：</p>
+<ol>
+<li>任何包含偶数个O型连接的回路，都是正反馈或增强回路（注意，零是偶数）；</li>
+<li>任何包含奇数个O型连接的回路，都是负反馈或调节回路。</li>
+</ol>
+<p>大家可以自行去思考生活中的例子，这里提供两种通用型解释。</p>
+<p>第一，数学比喻。我们把O型连接比喻成回路中的“-1”，S型连接就是回路中的“+1”，回路就是若干个O、S型连接相乘的结果，如果结果为正，那就是正反馈或增强回路，如果结果为负，那就是负反馈或调节回路。因此我们可以看到，唯一影响结果是正是负的，就是O型连接的数量。</p>
+<p>第二，现实理解。如果回路中有偶数个O型连接，它们的作用实际上就会相互“抵消”，从而使得整个回路发挥一种增强的效果，就像整个回路完全由S型连接构成的那样。</p>
+<p><a name="0R8Ks"></a></p>
+<h1 id="五、观察系统"><a href="#五、观察系统" class="headerlink" title="五、观察系统"></a>五、观察系统</h1><p>根据回路触发情况的不同，所有的增强回路要么表现为指数增长，要么表现为指数衰退。在观察系统时，我们尤其要警惕这两种指数趋势，一旦增长/衰退趋势变得明显，可能就来不及了。</p>
+<p><a name="tlcyq"></a></p>
+<h2 id="5-1-青蛙与睡眠"><a href="#5-1-青蛙与睡眠" class="headerlink" title="5.1  青蛙与睡眠"></a>5.1  青蛙与睡眠</h2><blockquote>
+<p>有一群青蛙幸福地生活在一个大池塘的一角。池塘的另一边有一片睡莲。一天，池塘里面流进来了一些具有刺激睡莲生长的化学污染物，它们可以让睡莲每24小时增长一倍。</p>
+<p>这对青蛙而言是个问题，因为如果睡莲覆盖了整个池塘，青蛙就将被赶出池塘。</p>
+</blockquote>
+<p>我们来看三个问题：</p>
+<ol>
+<li>如何描述睡莲的增长？</li>
+<li>如果睡莲可以在50天内覆盖整个池塘，那什么时候池塘会被覆盖一半？</li>
+<li>如果青蛙有一种阻止睡莲生长的方法，但是需要花10天时间来将这个方法付诸实施。请问池塘被睡莲覆盖的面积最大可以达到多少百分比时，青蛙仍然还有可能采取行动挽救自己？</li>
+</ol>
+<p><a name="IsPDU"></a></p>
+<h3 id="5-1-1-如何描述睡莲的增长？"><a href="#5-1-1-如何描述睡莲的增长？" class="headerlink" title="5.1.1  如何描述睡莲的增长？"></a>5.1.1  如何描述睡莲的增长？</h3><p>睡莲的增长模式就是每经过一定的时间（这里是24小时），睡莲就会增长一倍。</p>
+<p>用数学公式来表述就是：（1+100%）^N（N次方），如果你用电脑画图，就会发现这个公式呈现出的就是一副指数增长图，刚开始变化很小，到最后增长趋势几乎达到90°。</p>
+<p>与这个图类似的故事就是宰相西萨·班·达依尔发明国际象棋后，国王舍罕奖励宰相稻谷的故事，大家可以自行百度，这里就不再复述了。</p>
+<p><a name="OVuMM"></a></p>
+<h3 id="5-1-2-什么时候池塘会被覆盖一半？"><a href="#5-1-2-什么时候池塘会被覆盖一半？" class="headerlink" title="5.1.2  什么时候池塘会被覆盖一半？"></a>5.1.2  什么时候池塘会被覆盖一半？</h3><p>如果睡莲需要50天才能覆盖池塘，而且它们每天增长一倍，那么第49天结束的时候，池塘就将被遮盖掉一半，而不是在第25天。如果增长是线性的，那么池塘确实会在第25天结束时被睡莲覆盖一半。</p>
+<p>很多人对第二个问题的回答是25天，这在很大程度上可能是因为对于大多数人来说，想象线性增长的情形要比想象指数增长的情形来得容易。</p>
+<p><a name="ZYlk8"></a></p>
+<h3 id="5-1-3-睡莲的面积最大可以达到多少百分比之前，青蛙仍然能采取行动挽救自己？"><a href="#5-1-3-睡莲的面积最大可以达到多少百分比之前，青蛙仍然能采取行动挽救自己？" class="headerlink" title="5.1.3  睡莲的面积最大可以达到多少百分比之前，青蛙仍然能采取行动挽救自己？"></a>5.1.3  睡莲的面积最大可以达到多少百分比之前，青蛙仍然能采取行动挽救自己？</h3><p>这个问题指出，青蛙可以阻止睡莲的增长，但是一共需要10天时间才能完成这项工作。因此，如果它们希望自己的工作能够收到效果，则它们最迟也要在第40天结束之前开始行动；否则，它们就必然会落后于睡莲并被赶出池塘。一旦时间走过了第40天，青蛙就只能束手就擒了——它们的末日到了。</p>
+<p>那么，40天的时候池塘会被睡莲覆盖多少？解决这个问题的最简单方法就是倒推。我们已经知道，到第50天结束的时候池塘会被睡莲完全覆盖；第49天结束的时候被覆盖1/2；第48天结束的时候被覆盖1/2×1/2=1/4；第47天结束的时候被覆盖1/2×1/2×1/2=(1/2)）^3……依此类推。这意味着在第40天结束的时候，也就是青蛙能够采取行动的最晚时间，此时池塘已经被睡莲覆盖了(1/2)）^10。</p>
+<p>(1/2)）^10是一个非常非常小的数字——只是0.00098，比1/1000还要小。就这样，在必然灭亡的10天之前，睡莲所覆盖的面积尚不到整个池塘的1/1000！</p>
+<p>从青蛙的观点来看，它们必须对很远很远地方发生的、非常非常小的事情保持警惕，并及时采取行动。</p>
+<p>如果它们在危险真正降临之前没有采取行动，比如它们突然发现睡莲已经覆盖了池塘的1/4甚至是1/2，那么，一切都晚了。</p>
+<p><a name="78lI5"></a></p>
+<h2 id="5-2-系统思考的优势"><a href="#5-2-系统思考的优势" class="headerlink" title="5.2  系统思考的优势"></a>5.2  系统思考的优势</h2><p>所有增强回路的自然行为——指数增长，都可能导致一个无法挽回的结果。</p>
+<p>假设你是池塘里的青蛙，靠普通思考预料到自己会被赶出池塘的可能性，几乎是零。在初期，它增长得如此缓慢，以至于你很难注意到它的增长。但突然之间，它就变成了一个庞然大物，对你造成致命影响。</p>
+<p>但是，学会了系统思考，你就能明白要注意警惕增强回路，光是对一个回路特性的判断，就能意识到未来可能发生的风险，这就是系统思考的优势所在。</p>
+<p>总结来说，系统思考有三个优势：</p>
+<p><a name="aHBqf"></a></p>
+<h3 id="5-2-1-有助于避免短视和本位主义"><a href="#5-2-1-有助于避免短视和本位主义" class="headerlink" title="5.2.1  有助于避免短视和本位主义"></a>5.2.1  有助于避免短视和本位主义</h3><p>系统思考通过采纳整体视角，延长了时间因素，扩大了思考范围，有助于避免短视和本位主义。正如我们之前提到的，系统思考可以避免“竖井”思维和组织“近视”，就是因为它采用了整体和连接的视角。</p>
+<p><a name="c0nFX"></a></p>
+<h3 id="5-2-2-降低做出错误决定的概率"><a href="#5-2-2-降低做出错误决定的概率" class="headerlink" title="5.2.2  降低做出错误决定的概率"></a>5.2.2  降低做出错误决定的概率</h3><p>系统思考可以使我们清晰地审视我们所感兴趣的系统，了解整个事情的来龙去脉，理清其内在逻辑，进一步培养看清复杂系统的能力。虽然它不会直接告诉我们标准的正确答案，但我们可以对我们的决策和行为进行深层次探究，降低因不了解系统而做出错误决定的比率。</p>
+<p><a name="cwOeY"></a></p>
+<h3 id="5-2-3-一种有助于决策的工具"><a href="#5-2-3-一种有助于决策的工具" class="headerlink" title="5.2.3  一种有助于决策的工具"></a>5.2.3  一种有助于决策的工具</h3><p>系统思考是一种擅长于探索所有备选政策和决策的工具，它可以帮助我们预先估计各项决策的后果和影响。这使得我们可以避免采取一些会为未来埋下隐患的速效疗法，避免做出事后后悔的决策。</p>
+<p><a name="G0z8j"></a></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>对于这本书，我们主要是<strong>学习培养系统思考的方法，掌握系统思考的概念与原则</strong>。</p>
+<p>书中有许多商业应用的实操案例和画图方法，但过于片面而且翻译略显晦涩，同时对于我们的主要目的来说并不重要，所以没有进行叙述，如果有小伙伴感兴趣可以自行查阅。</p>
+<p>相对于技巧，对我们而言，更看重的是一个思维方法的核心逻辑。当我们真正掌握了更正确的学习内容和方法，并将其融入到我们的思考内容的时候，我们就基本掌握了系统思考的精髓。</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.any1024.com" rel="external nofollow noreferrer">程一初</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.any1024.com/2020/03/11/yuque/xi-tong-si-kao/">http://www.any1024.com/2020/03/11/yuque/xi-tong-si-kao/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="http://www.any1024.com" target="_blank">程一初</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="wechat,qq,qzone,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赞赏是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://s1.ax1x.com/2020/03/16/8JpDYj.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://s1.ax1x.com/2020/03/16/8JpwTg.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/03/11/yuque/pi-pan-xing-si-wei/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="批判性思维">
+                        
+                        <span class="card-title">批判性思维</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+书籍信息全书名：《批判性思维（原书第10版）：全球最受欢迎的思维训练读本》英文名：《Critical Thinking》作者名：[美]布鲁克·诺埃尔·摩尔，理查德·帕克译者名：朱素梅
+
+前言批判性思维是近几年来在认知领域最炙手可热的名词了
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            程一初
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/03/11/yuque/ying-xiang-li/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="影响力">
+                        
+                        <span class="card-title">影响力</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+书籍信息全书名：《影响力：珍藏版》英文名：《Influence: The Psychology of Persuasion》作者名：[美] 罗伯特·西奥迪尼 译者名：闾佳
+
+前言本书中有很多心理学的东西非常值得一看，作者本身也是心理学的大
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            程一初
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="http://www.any1024.com" target="_blank">程一初</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">244.6k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备18017947号-2</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/ichengplus" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:yichu.cheng@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=394133964" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 394133964" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/any1024" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/any1024" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
