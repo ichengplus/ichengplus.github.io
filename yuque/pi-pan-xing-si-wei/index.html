@@ -1,0 +1,1434 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="批判性思维, 学习, 成长, 干货, 技术, 读书, 笔记, 商业, 创新, 思维">
+    <meta name="description" content="学习的本质是模仿，创造的关键在洞察">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160648630-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-160648630-1');
+</script>
+
+
+    <title>批判性思维 | 只差一个程序员了</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="只差一个程序员了" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">只差一个程序员了</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">只差一个程序员了</div>
+        <div class="logo-desc">
+            
+            学习的本质是模仿，创造的关键在洞察
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，可联系管理员VX：ichengplus6');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">批判性思维</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-03-11
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    12.1k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    41 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><a name="U2IVh"></a></p>
+<h1 id="书籍信息"><a href="#书籍信息" class="headerlink" title="书籍信息"></a>书籍信息</h1><p>全书名：<a href="https://book.douban.com/subject/26278795/" target="_blank" rel="noopener">《批判性思维（原书第10版）：全球最受欢迎的思维训练读本》</a><br>英文名：《Critical Thinking》<br>作者名：[美]布鲁克·诺埃尔·摩尔，理查德·帕克<br>译者名：朱素梅</p>
+<p><a name="df368884"></a></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>批判性思维是近几年来在认知领域最炙手可热的名词了，几乎每一本讲思维、讲认知的书，都会提到这个名词。但摩尔的这本《批判性思维》，是我读过理论最严谨、触及的社会现象最深的一本。</p>
+<p>摩尔的写作目的，就是指导读者如何展开批判性思维。因此这本书既有理论观点，也讲现实问题，更重要的是，它从一个如何进行批判性思维的角度，提供了一套原则、规则，以及丰富实用的使用技巧和训练方法。</p>
+<p>读完这本书，一定会让我们对批判性思维有更清晰的认识，而且会提高我们的批判性思维能力。当然效果如何，得看我们自己是否是真的“认真学完”了。</p>
+<p><a name="Jb9ck"></a></p>
+<h1 id="一、批判性思维与论证"><a href="#一、批判性思维与论证" class="headerlink" title="一、批判性思维与论证"></a>一、批判性思维与论证</h1><p>我们先来看两个概念：什么是批判性思维？什么是论证？</p>
+<p>之所以必须弄懂什么是论证，因为批判性思维所评估的，就是论证本身。</p>
+<p><a name="vTMX1"></a></p>
+<h2 id="1-1-自我评估"><a href="#1-1-自我评估" class="headerlink" title="1.1  自我评估"></a>1.1  自我评估</h2><p>在正式进入批判性思维的学习之前，我们先来做一下自我评估，你是否善于：</p>
+<ol>
+<li>判断信息是否恰当</li>
+<li>区分理性的断言和情感的断言</li>
+<li>区别事实和观点</li>
+<li>识别证据的不足</li>
+<li>洞察他人论证的陷阱和漏洞</li>
+<li>独立分析数据或信息</li>
+<li>识别论证的逻辑错误</li>
+<li>发现数据和信息与其来源之间的联系</li>
+<li>处理矛盾的、不充分的、模糊的信息</li>
+<li>基于数据而不是观点建立令人信服的论证</li>
+<li>选择支持力强的数据</li>
+<li>避免言过其实的结论</li>
+</ol>
+<p>以上12条是美国教育资助委员会的大学学习评估工程（CLA）具体罗列的批判性思维的重要技能。</p>
+<p>那么我们的自评的结果符合几条呢？可以先把自己认为能做到的几条标注出来，等我们正式在书上学到有关上述能力的内容时，再来回过头来看自己是否真的做到了这几条。</p>
+<p><a name="KLpP5"></a></p>
+<h2 id="1-2-批判性思维"><a href="#1-2-批判性思维" class="headerlink" title="1.2  批判性思维"></a>1.2  批判性思维</h2><p>我们的大脑里存在着一种思维：它让我们形成意见、做出判断、做出决定、形成结论。</p>
+<blockquote>
+<p>比如“你要送你的小孩去本市最好的二中读书”，“你想买一辆宝马730”，“你要等双11才买自己最喜欢的那件皮外套”，“你准备跳槽”等等。</p>
+</blockquote>
+<p>同时，我们大脑里还存在着另一种思维——批判性思维：它批判前一种思维，让前述思考过程接受理性评估。</p>
+<blockquote>
+<p>拿送小孩读书的例子来说，为什么要送去二中？为什么说二中是本市最好的中学？二中跟一中、三中有什么区别，这些区别评价是否真实可信？孩子或家庭的条件能够进入二中吗？为什么不送去省城的中学？等等。</p>
+</blockquote>
+<p>当我们依据逻辑和判断力来评估既已发生的思维，对形成结论的推理进行评估，考量自己（或者他人）的思维是否符合逻辑、是否符合好的标准的时候，我们就在使用批判性思维。</p>
+<p>可以说，批判性思维是对思维展开的思维，这个概念与大卫·迪绍夫说的元认知有异曲同工之妙，但从应用角度而言，摩尔的批判性思维更具操作性和实用性。</p>
+<p><a name="7oz4f"></a></p>
+<h2 id="1-3-论证"><a href="#1-3-论证" class="headerlink" title="1.3  论证"></a>1.3  论证</h2><p>我们为一个结论找理由的过程，就是在论证。</p>
+<blockquote>
+<p>最近，韩梅梅喜欢上一件皮衣，虽然她已经有一件皮衣了，但这件是新款。这件皮衣价格有点贵，但听说双十一有优惠。</p>
+<p>经过思考，韩梅梅决定买下这件皮衣。她想：“这件皮衣现在穿正当季，而且款式新颖，我穿起来很好看，再说双十一马上到了，会有优惠，而且我还可以分期付款。”</p>
+</blockquote>
+<p>韩梅梅为买皮衣所做的思考，就是在给自己的决定找理由（在本书，结论、决定、断言是一个意思），整个过程就是一个论证的过程。</p>
+<p>论证由前提和结论构成。前提是为结论提供理由的陈述，被前提支持的结论就是这个论证的结论。</p>
+<blockquote>
+<p>现在，我们来对韩梅梅的论证解构：<br>论题：韩梅梅是否应该买皮衣。<br>前提：这件皮衣现在穿正当季，而且款式新颖，穿起来很好看，双十一有优惠，可以分期付款。<br>结论：韩梅梅应该买下这件皮衣。</p>
+</blockquote>
+<p>关于论证，我们要注意如下三点：</p>
+<ol>
+<li>论证一定是指前提和结论二者之和；</li>
+<li>并非所有的论证都像韩梅梅的论证那样直截了当、易于理解；<ol>
+<li>爱因斯坦的E=mc²的结论就需要一系列高深的数学理论和物理理论的支持；</li>
+</ol>
+</li>
+<li>不是所有的问题都需要通过论证来解决。对于你的嗓子疼不疼的问题，你无须论证就可以直接回答。</li>
+</ol>
+<p><a name="N8Xnd"></a></p>
+<h2 id="1-4-批判性思维与论证"><a href="#1-4-批判性思维与论证" class="headerlink" title="1.4  批判性思维与论证"></a>1.4  批判性思维与论证</h2><p>论证与批判性思维的关系何在？</p>
+<p>人们做出论证的过程，只是在给一个结论找理由，但这些理由是否为真、是不是支持结论，或者结论是否为真、能否有效指导实践、是不是该被相信或执行，并不是由论证本身决定的，而是由批判性思维对论证的评估结果决定的。</p>
+<p>如果评估结果为真，才能说明论证为真，才能说明论证的前提和结论，以及前提与结论间的逻辑为真，结论才应该被相信或应用。</p>
+<p>所谓“真”“假”，是指命题的特征，是客观存在的，不因人们对命题所持的态度而改变。无论一个命题表达的是信念、观念、判断还是表达陈述或断言，它不是真的就是假的，真或假是命题的基本特征。</p>
+<p>当我们用批判性思维来评估论证时，重点评估以下三个条件是否得到同时满足：</p>
+<p><a name="675iT"></a></p>
+<h3 id="1-4-1-可以支持结论的前提必须是真的"><a href="#1-4-1-可以支持结论的前提必须是真的" class="headerlink" title="1.4.1  可以支持结论的前提必须是真的"></a>1.4.1  可以支持结论的前提必须是真的</h3><p>比如，款式是否真是最新款、穿起来是否真的好看、双十一是否真有优惠、是否真可以分期付款，只有这些为真，才能支持“韩梅梅应该买下这件皮衣”的结论。对于那些不支持结论的前提，其真假就无关紧要。</p>
+<p><a name="emMx9"></a></p>
+<h3 id="1-4-2-可以支持结论的前提必须是和结论相关的"><a href="#1-4-2-可以支持结论的前提必须是和结论相关的" class="headerlink" title="1.4.2  可以支持结论的前提必须是和结论相关的"></a>1.4.2  可以支持结论的前提必须是和结论相关的</h3><p>例如，“穿起来很好看”、“分期付款”、“双十一优惠”，如果不是韩梅梅穿起来好看、又或者韩梅梅不能享受分期或优惠，那这些前提就不支持“韩梅梅应该买下这件皮衣”的结论。</p>
+<p><a name="2e4tK"></a></p>
+<h3 id="1-4-3-所得的结论必须是真的"><a href="#1-4-3-所得的结论必须是真的" class="headerlink" title="1.4.3  所得的结论必须是真的"></a>1.4.3  所得的结论必须是真的</h3><p>比如“韩梅梅应该买下这件皮衣”这个结论就是真的，它符合现实的情况：韩梅梅喜欢它、且有能力购买它，是能被实现的；如果结论是“韩梅梅应该卖出这件皮衣”，那这个结论就是假的，因为韩梅梅并不拥有这件皮衣。</p>
+<p>批判性思维的主要应用，就是对以上三方面进行评估，如果评估结果显示有任意一条不满足，那这个论证就为假，我们就不应该相信或应用论证的结论。</p>
+<p><a name="ZDiME"></a></p>
+<h2 id="1-5-能与不能"><a href="#1-5-能与不能" class="headerlink" title="1.5  能与不能"></a>1.5  能与不能</h2><p>本书所用的“批判性思维”这个术语，与诸如“好思维”、“艰难的思维”、“清晰的思维”或者“超越常规的思维”等，并不是同义词。批判性思维，只是一个思维工具，它是中性的，并没有好坏之分。</p>
+<p>作为一个工具，批判性思维并不是万能的。批判性思维并不一定能告诉你：你是否该养只狗，你该支持哪个明星，全球变暖是否为真，甚至韩梅梅应不应该买皮衣。</p>
+<p>你翻回韩梅梅的例子，仔细看一看，不管是前提还是结论，没有一项内容是由批判性思维产生的。当韩梅梅构建整个论证以后，批判性思维才登场。</p>
+<p>虽然，批判性思维并不一定能告诉你“应该怎么做”，但是它一定能够在你进行“应不应该”的逻辑判断过程中，帮助你识别是否有问题。</p>
+<p>我们要承认，理性往往会屈服于一己之利、一厢情愿的思维以及其他种种诱惑；同时，我们也难以避免自己的思维受到各种认知偏见或谬误的约束与误导。</p>
+<p>但是，有意识地正确运用批判性思维，能够帮助我们走出思维误区，不断提高思维能力。</p>
+<p><a name="2iHva"></a></p>
+<h1 id="二、评估论证的逻辑"><a href="#二、评估论证的逻辑" class="headerlink" title="二、评估论证的逻辑"></a>二、评估论证的逻辑</h1><p>批判性思维对论证的评估，主要在两个方面：逻辑与真假，这一部分我们学习如何评估论证的逻辑。</p>
+<p>论证本身其实是一个逻辑推理的过程，通过批判性思维对论证逻辑的评估，我们才能够明确判别论证的类型，明白论证所要表达的真实意思。</p>
+<p><a name="yawP8"></a></p>
+<h2 id="2-1-演绎论证"><a href="#2-1-演绎论证" class="headerlink" title="2.1  演绎论证"></a>2.1  演绎论证</h2><p>当前提是用来证明结论的时候，这个论证就是演绎论证。</p>
+<blockquote>
+<p>比如下面这个论证：<br>前提：A比B高，B比C高。<br>结论：A比C高。</p>
+</blockquote>
+<p>我们在前提说明了A与B、B与C之间的身高关系，目的在于证明结论所表述的A与C之间的身高关系，因此，这是一个演绎论证。</p>
+<p>在这个论证中，只要前提为真，那么结论就不可能为假。所有满足这一条件的论证，我们统称为：有效论证。<br>有效论证虽然有效，但不一定可靠。</p>
+<blockquote>
+<p>比如这个论证：<br>前提：姚明比郭敬明高，郭敬明比易建联高。<br>结论：姚明比易建联高。</p>
+</blockquote>
+<p>这个论证的前提在现实生活中是假的，姚明确实比郭敬明高，但郭敬明不比易建联高。</p>
+<p>即使如此，这个论证依然是一个有效论证，因为不可能出现前提为真而结论为假的情况。如果你有办法让郭敬明变得比易建联高，那么姚明就肯定比易建联高。</p>
+<p>这里有一点点绕，我再解释一遍。</p>
+<p>当我们在判断一个论证是不是有效论证的时候，只需要假设它的前提为真，不用判断该前提在现实中是不是真的为真。在这个假设的基础上，如果前提必然推出结论为真，那这个论证就是有效论证；如果前提不必然推出结论为真，那这个论证就不是有效论证。我们只需要判断“是不是必然推出结论为真”，而不用在乎有效论证的前提在现实生活中是不是真的为真。</p>
+<p>也就是说，有效论证的前提可能现实为假，也可能现实为真，但只要前提假设为真，结论就必然为真。</p>
+<p>既然有效论证的前提在现实生活中可能为假，那我们就不能仅依靠有效论证来证明观点或指导实践，我们还要判断这个论证的前提，是不是现实为真。只有当前提现实为真时（不是假设为真），有效论证才是可靠的论证。</p>
+<p>而可靠的论证，才是我们需要的演绎论证，才能在现实生活中证明观点或指导实践。</p>
+<p><a name="OFQ3s"></a></p>
+<h2 id="2-2-非演绎论证"><a href="#2-2-非演绎论证" class="headerlink" title="2.2  非演绎论证"></a>2.2  非演绎论证</h2><p>与演绎论证的前提证明结论不同，非演绎论证的前提不证明结论，非演绎论证的前提支持结论。</p>
+<blockquote>
+<p>比如，一名妇女被谋杀了。已知死者曾多次遭到丈夫的威胁。该事实当然不能证明死者是被丈夫谋杀的。仅凭该事实也几乎不能单独地支持凶手是死者丈夫的结论。</p>
+<p>但该事实还是有些支持力的，它略略提高了丈夫是凶手的可能性。当然，如果知道他在妻子死前曾不止一次地威胁妻子，那他是凶手的可能性又会提高。</p>
+</blockquote>
+<p>支持有程度的不同。支持程度可以从较低的微弱支持到较高的相当强的支持。</p>
+<p>假如发现凶器上留有丈夫的指纹，该证据就为“丈夫是凶手”的结论提供了程度高得多的支持。即该前提使得“妻子被丈夫谋杀”的结论更有可能为真。</p>
+<p>依据前提给结论提供的支持程度的不同，非演绎论证分为强论证和弱论证。</p>
+<p>前提为结论提供的支持越高，非演绎论证越强；前提为结论提供的支持越低，非演绎论证越弱。</p>
+<p>对于“丈夫是凶手”的结论，前提“丈夫多次威胁妻子”提供了程度较低的支持，前提“凶器上有丈夫的指纹”提供了程度相当高的支持，二者相比，后者是较强的论证。</p>
+<p><a name="N07F1"></a></p>
+<h2 id="2-3-未表达前提"><a href="#2-3-未表达前提" class="headerlink" title="2.3  未表达前提"></a>2.3  未表达前提</h2><p>现实生活中，有些论证我们很难直接判断它是演绎的还是非演绎的，因为其中往往包含未表达前提。</p>
+<blockquote>
+<p>比如小明说：天要下雨了。小光问他为什么知道要下雨了。小明说：因为刮起了南风。<br>表达前提：刮起了南风。<br>结论：天要下雨。</p>
+</blockquote>
+<p>在真实的语境中，我们会觉得这个论证不完全，觉得前提和结论之间有缺失：为什么刮南风就要下雨？这个缺失，就是未表达前提。之所以是未表达的前提，是因为这个前提暗含在语境中，只是A并未直接表达而已。</p>
+<p>那么，这个论证到底是演绎论证，还是非演绎论证呢？这要看未表达前提的具体内容了。</p>
+<p><a name="ckaJb"></a></p>
+<h3 id="2-3-1-演绎论证下的未表达前提"><a href="#2-3-1-演绎论证下的未表达前提" class="headerlink" title="2.3.1  演绎论证下的未表达前提"></a>2.3.1  演绎论证下的未表达前提</h3><blockquote>
+<p>表达前提：刮起了南风。<br>未表达前提：这个地区，南风过后总是下雨。<br>结论：天要下雨。</p>
+</blockquote>
+<p>我们增加的这个未表达前提是一个全称命题，“总是”下雨，没有不下的情况，即所陈述的对象没有例外。通过增加这个全称命题，该论证就变成了演绎论证：南风天后，天（总是）要下雨。A的表达前提和未表达前提，最终证明了结论。</p>
+<p><a name="KG7sk"></a></p>
+<h3 id="2-3-2-非演绎论证下的未表达前提"><a href="#2-3-2-非演绎论证下的未表达前提" class="headerlink" title="2.3.2  非演绎论证下的未表达前提"></a>2.3.2  非演绎论证下的未表达前提</h3><blockquote>
+<p>表达前提：刮起了南风。<br>未表达前提：这个地区，南风过后经常下雨。<br>结论：天要下雨。</p>
+</blockquote>
+<p>这个未表达前提就不是全称命题，“经常”下雨指的是频率高，但是也有不下雨的情况。在这个论题中，未表达前提就让论证变成了非演绎论证：南风天后，天（经常）要下雨。A的表达前提和未表达前提，只是支持了结论。</p>
+<p>通过不同的方式补充未表达前提，可以形成演绎论证，也可以形成非演绎论证。</p>
+<p>实际生活中的论证往往包含未表达前提。通常，借助背景知识和常识，以及上下文和语境能帮助我们理解论证者的意图，借此补充的未表达前提至少该是可信的。</p>
+<p><a name="kvoSU"></a></p>
+<h2 id="2-4-生活中的论证"><a href="#2-4-生活中的论证" class="headerlink" title="2.4  生活中的论证"></a>2.4  生活中的论证</h2><p>当我们提到演绎论证，并提到“前提证明结论”时，是指前提对结论的证明是“排除任何怀疑”的，也就是说，没有任何例外的情况会导致或出现前提不证明结论的情况。</p>
+<p>比如“这个地区，南风过后总是下雨”这个全称命题，使得A的论证变成了演绎论证。</p>
+<p>其实，这个演绎论证对现实生活来说实在是太苛刻了，它意味着“只要刮南风，天一定下雨”，不存在任意一次“刮了南风，不下雨”的情况。</p>
+<blockquote>
+<p>但我们都知道，要判断这个前提是否为真是不现实的。</p>
+<p>别说派一个专门的统计员，就算是用最先进的仪器来监测这个地区是不是一刮南风就下雨，最高限度，也就得到一个只能无限靠近、但无法达到100%的概率性结论，且不说仪器监测的误差，仅凭“仪器不是从第一次刮南风开始，一直监测到现在”这一点，我就可以说这个全称命题，在现实中，没有办法证明其100%为真。</p>
+</blockquote>
+<p>因此，A的论证放到现实中，就由全称命题变成了非全称命题，由演绎论证变成了非演绎论证。</p>
+<p>现实中，人们经常会说某事“证明”了某事，但这其实是一种“非正式”意义上的表达，虽然使用了“证明”二字，但他们并不是在做演绎论证，而是在做非演绎论证。即使他们还使用了“肯定”、“绝对”等词语来修饰前提对结论的支持，但也不意味着他们在做演绎论证，更多的可能是在通过修辞表达自己对这份论证的态度和情感。</p>
+<p>生活当中的论证绝大多数是非演绎论证，因为我们可以仅凭前提对结论的支持程度，就能进行观点判断和实践指导了，相比之下，追求演绎论证的成本要高太多。</p>
+<p>尽管如此，本书在谈论“证明”时，还是从严格的逻辑意义上来使用的。</p>
+<p><a name="wwZAO"></a></p>
+<h2 id="2-5-评估论证"><a href="#2-5-评估论证" class="headerlink" title="2.5  评估论证"></a>2.5  评估论证</h2><p>用批判性思维来评估论证，主要从两方面入手：</p>
+<ol>
+<li>从逻辑的角度评估论证；<ol>
+<li>该论证是在证明还是在支持其结论？这是一个有效的演绎论证还是较强的非演绎论证？</li>
+</ol>
+</li>
+<li>从真假的角度评估论证；<ol>
+<li>论证的前提或结论确实为真吗？</li>
+</ol>
+</li>
+</ol>
+<p>下一部分，我们将学习如何利用批判性思维来评估论证的真假。</p>
+<p><a name="Fq3ku"></a></p>
+<h1 id="三、使用且方便的技巧"><a href="#三、使用且方便的技巧" class="headerlink" title="三、使用且方便的技巧"></a>三、使用且方便的技巧</h1><p>利用批判性思维评估论证的逻辑与可信性，可以帮助我们正确看待和使用论证。判断逻辑是否为真，存在着科学的锻炼技巧，可以通过努力学习掌握。</p>
+<p>但可信性却因为世界的千变万化而往往难以衡量，在这一部分，主要论述一些实用且方便的辨别可信性的技巧。</p>
+<p><a name="96CWa"></a></p>
+<h2 id="3-1-断言"><a href="#3-1-断言" class="headerlink" title="3.1  断言"></a>3.1  断言</h2><p>就论证而言，批判性思维评估的可信性，其实就是论证中断言的可信性。</p>
+<p>当我们用陈述句来表达判断、观点或者信念（你所相信的事物）时，都是在做断言。就本书而言，这是断言的主要定义。</p>
+<p>这里要注意两个关键内容：</p>
+<ol>
+<li>断言必须是陈述句。其他句式，如疑问句,祈使句,感叹句都不能是断言。</li>
+<li>只有判断、观点或者信念，才能成为断言的内容。</li>
+</ol>
+<p>论证的前提、结论，都是断言的表现形式，我们用批判性思维评估论证的真或假，就是在评估论证中断言的真或假。<br>根据真或假的判定标准，断言分为客观断言和主观断言两类。</p>
+<p><a name="YQv9G"></a></p>
+<h2 id="3-2-客观断言"><a href="#3-2-客观断言" class="headerlink" title="3.2  客观断言"></a>3.2  客观断言</h2><p>客观断言（objective claim）的特征是：它的真或假不依赖于思考者认为它是真还是假。</p>
+<blockquote>
+<p>“火星上有生命”就是客观断言，纵使突然间所有的人都认为火星上有生命，火星上也不会真的因此会突然出现生命。</p>
+<p>“上帝存在”也是客观断言，因为它是否为真并不依赖于人们是否认为它真。</p>
+</blockquote>
+<p>虽然客观断言或者为真或者为假，对于一个给定的断言，我们也有可能并不知道其真假。</p>
+<blockquote>
+<p>比如：</p>
+<ul>
+<li>“海南离赤道比离北极近”是一个真的客观断言；</li>
+<li>“海南离赤道比离北极远”则是一个假的客观断言；</li>
+<li>“海南的足球爱好者比贵州多”则是一个真假未知的客观断言，至少我是不知道这个断言的真假。</li>
+</ul>
+</blockquote>
+<p><a name="27sOZ"></a></p>
+<h2 id="3-3-主观断言"><a href="#3-3-主观断言" class="headerlink" title="3.3  主观断言"></a>3.3  主观断言</h2><p>当然，并非所有的断言都是客观的。</p>
+<p>“王健林是很酷的爸爸”就不是客观断言，因为它不具有客观断言的特征。一个人是否是很酷的父亲取决于人们的想法。如果没有任何人认为王健林是很酷的父亲，他就不是。如果你认为王健林是很酷的父亲，而我认为不是，那我们可以各持己见。因为关于某人是否是很酷的父亲的观点，与观点持有者的眼光有关。</p>
+<p>这一类的断言就是主观断言（subjective claim），其特征是：它的真假依赖于人们认为它为真还是为假。</p>
+<p>关于口味的判断就是典型的主观断言，如“米醋太甜”。米醋是否太甜？这取决于你怎么想。</p>
+<p>有一些比较也是主观断言，如单板滑雪比双板滑雪更有趣。这些断言除了决定于你如何想以外，并没有更深层的决定真或假的依据。</p>
+<p>值得注意的是，许多陈述既包含客观的元素也包含主观的成分。例如“有人偷走了我酷炫的镶钻滑板鞋”，滑板鞋是否是镶钻是客观断言，滑板鞋到底是否是“我的”也是客观断言，它是否被偷了也是客观断言，但被偷的镶钻滑板鞋到底是否“酷炫”则是主观的了。</p>
+<p>既然主观断言的真假取决于思考主体的看法，那是否意味着关于思想的所有陈述都是主观的呢？</p>
+<p>答案是否定的。如“李雷在考虑搬家的事”，这个陈述的真假由什么来决定呢？这并不取决于李雷主观上认为它是否为真。如果李雷的确在想搬家这件事，那么这个陈述就是真的。</p>
+<p>关于一个人的思维的陈述是客观的，它陈述的是某人脑海里正在思考的东西。</p>
+<p><a name="kmme3"></a></p>
+<h2 id="3-4-断言的内容"><a href="#3-4-断言的内容" class="headerlink" title="3.4  断言的内容"></a>3.4  断言的内容</h2><p>评估可信性要从两个层面着手：断言本身，及信息来源。</p>
+<p>先来看看断言本身。</p>
+<p>当我们发现断言与我们的个人观察相冲突的时候，我们很容易就能判别一些断言的真假。</p>
+<blockquote>
+<p>比如我看到李雷买了一辆红色的越野车，但是韩梅梅跟我说：“听说李雷买了一辆蓝色的越野车。”</p>
+</blockquote>
+<p>我不需要经过批判性思维训练就可以指出韩梅梅说错了车的颜色，因为这和我本人观察到的颜色相冲突。除了个人观察，如果我们发现断言与我们所具备的知识库相冲突，我们也会提出质疑，但不一定能马上判别断言的真假。</p>
+<p>我们的知识库里，包括我们从自己的直接观察中学到的事实（直接经验），以及从其他途径了解到的事实（间接经验）。</p>
+<p>当我们遇到与知识库相冲突的信息时，即使我们无法通过直接观察来反驳它，但我们通常也会提出质疑，而不是立即接受它。</p>
+<blockquote>
+<p>比如，小明13岁了，刚上高中。这个就与我们的知识库相冲突，一般情况下，上高中的孩子都是16岁。因此对这个信息，我们就会提出质疑。</p>
+</blockquote>
+<p>而遇到一些与知识库相一致的信息时，我们更有可能直接接受它，而不是试图质疑它。</p>
+<blockquote>
+<p>比如，小红13岁了，刚上初一。这个信息在我们看来就很符合我们的知识库，12岁读完小学，13岁上初一是正常的。</p>
+</blockquote>
+<p>显然，一个人的观察能力越强、知识库越丰富，那么ta对断言可信性的判断能力就越强。</p>
+<p><a name="a9bkw"></a></p>
+<h2 id="3-5-信息的来源"><a href="#3-5-信息的来源" class="headerlink" title="3.5  信息的来源"></a>3.5  信息的来源</h2><p>有些信息，光是知道其来源，就会影响我们对其可信性的判断。</p>
+<p>信息的来源可以分为利益相关方和利益无关方两种。</p>
+<p>利益相关方指可以通过我们的信任获益的人或组织；反之，不以任何方式从我们的信任中获益的人或组织，就是利益无关方。</p>
+<p>很明显，利益相关方提供的信息比利益无关方提供的信息，更值得被怀疑。因为利益相关方更可能为了自己的利益而提供更有利于他自身的信息，这类信息往往不够中立，具有倾向性、诱导性；而利益无关方就没有动机去给信息添加这种倾向性，因此他的信息可能更中立。</p>
+<blockquote>
+<p>比如，你在服装店试一件外套，相比于销售员说你穿起来好看，你更愿意相信其他顾客说你穿起来好看。因为销售员可以从你购买这件外套中获利，但其他顾客却不能。</p>
+<p>所以你觉得其他顾客更有可能说实话，因为他没有“骗”你的必要。</p>
+</blockquote>
+<p>尽管并非所有的利益相关方都想迷惑我们，也不是利益无关方都能给我们提供优质信息。但综合考虑各种因素，我们在评价信息的可信性时，首先要关注发布信息者与其所提供的信息是否利益相关，并在相信利益相关方之前先相信利益无关方。</p>
+<p>现实生活中，信息来源是否是利益相关方并不总是那么明显。</p>
+<blockquote>
+<p>比如一些股票评论员往往在电视或网络节目上大力推荐一些股票，大多数观众几乎无法判断他们购买该股票是否会让股票交易员从中获利，因此就很难判断股票交易员到底是利益相关方还是无关方。</p>
+</blockquote>
+<p>在这种情况下，我们在判断信息的可信性时，就会借助信息来源的其他特征。</p>
+<p><a name="FgG0Q"></a></p>
+<h3 id="3-5-1-信息来源的体貌特征"><a href="#3-5-1-信息来源的体貌特征" class="headerlink" title="3.5.1  信息来源的体貌特征"></a>3.5.1  信息来源的体貌特征</h3><p>如果一个人跟你说话时一直不敢与你的眼神对视，或者是在冒汗，或者手上的姿势总是不自然，我们通常就会认为这个人在说谎，那么我们就不会对他提供的信息赋予较高的可信性。</p>
+<p>除此之外，人们还会根据性别、年龄、种族、口音、举止习惯，甚至穿着来判断其可信性。斯坦福大学的一项研究显示，身材高大、声音洪亮和果断的人往往会得到更多的信任。</p>
+<p><a name="Vbtx6"></a></p>
+<h3 id="3-5-2-信息来源的专业性"><a href="#3-5-2-信息来源的专业性" class="headerlink" title="3.5.2  信息来源的专业性"></a>3.5.2  信息来源的专业性</h3><p>这个专业性，既指更专业的知识或技能，也指更丰富的经验。</p>
+<blockquote>
+<p>比如，在身体是否健康这件事上，我们更倾向于听从医生的建议，即使大多数情况下，医生是利益相关方，但其专业性还是会增加信息的可信性。</p>
+<p>再如，在子女教育这件事上，相比年轻的教师，我们更倾向于相信教龄更长的教师。</p>
+</blockquote>
+<p><a name="lAW1B"></a></p>
+<h3 id="3-5-3-信息来源的影响力属性"><a href="#3-5-3-信息来源的影响力属性" class="headerlink" title="3.5.3  信息来源的影响力属性"></a>3.5.3  信息来源的影响力属性</h3><p>所谓影响力，就包括了职位、权力、声誉、社会声望、领导能力等因素。实际上，专业性也属于影响力的一种，但由于专业性对可信性的影响太过普遍，所以我们把它单独列出，以示重视。</p>
+<blockquote>
+<p>当你的部门经理说：“工作干得不错，这个月给你涨工资。”你肯定很高兴，基于他的职位，你不带质疑地相信了这个信息；第二天，公司领导在会上说：“这个月我们业绩完成得不理想，全体员工工资降低10%。”</p>
+<p>此时你肯定会感到失落，因为你知道公司领导的话比部门经理的话更有可信性，因为前者的职位权力更大。</p>
+</blockquote>
+<p>请注意，上述列举的三个信息来源的特征，并不是说具备这些特征的信息源更值得信任，而是说人们更倾向于信任这些信息源。</p>
+<p>实际上，批判性思维正是告诫我们要谨慎地对待这些信息源。</p>
+<p><a name="o5Knd"></a></p>
+<h1 id="四、认错，认识错误"><a href="#四、认错，认识错误" class="headerlink" title="四、认错，认识错误"></a>四、认错，认识错误</h1><p>这一部分的主要内容是“认错”，但不是“承认错误”，而是“认识错误”。</p>
+<p>在使用批判性思维对论证进行评估，以期得出正确的结论或者做出明智的选择或决定的过程中，最容易出现两类错误：</p>
+<ol>
+<li>逻辑谬误，即在推理中所犯的错误；</li>
+<li>认知偏差，即心理因素导致我们在判断事物时出现的偏差。</li>
+</ol>
+<p><a name="aEoUM"></a></p>
+<h2 id="4-1-诉诸人身的谬误"><a href="#4-1-诉诸人身的谬误" class="headerlink" title="4.1  诉诸人身的谬误"></a>4.1  诉诸人身的谬误</h2><p>假设，你认为你的老师有点特别，甚至是古怪，难道你可以因此认为你老师开的车也很特别甚至古怪吗？显然不能。<br>同样，你也不能因此就认为这位老师提出的某项建议就特别或者古怪，不能因为一个古怪的人提出了某建议，就认为该建议本身就是古怪的。</p>
+<p>如果认为老师古怪就以此认为他的断言也古怪，就犯了诉诸人身的谬误。这是推理错误中最常见的一种，该谬误源于把提出某断言的主体的特征与该断言本身的特征混为一谈。</p>
+<p>“诉诸人身”在拉丁文中的意思是“针对这个人”，用于指向谈论问题的人，而不是指向问题本身。</p>
+<p>下面是最常见的几种诉诸人身的谬误：</p>
+<p><a name="8REFm"></a></p>
+<h3 id="4-1-1-人身攻击型"><a href="#4-1-1-人身攻击型" class="headerlink" title="4.1.1  人身攻击型"></a>4.1.1  人身攻击型</h3><p>当我们把某种不良品性归于某人，形成对他的攻击，同时认为他的断言也包含了这种不良品性时，就犯了此类谬误。</p>
+<blockquote>
+<p>比如说“A是一个骗子，他说的话不可信”。</p>
+</blockquote>
+<p>我们昨天刚学了信息源的可信性。的确，A作为信息源，其说的话很有可能是假的，因此我们当然应该对他的断言持有怀疑。但是，一个人身上的缺点不等同于这个人的观念、建议、理论、观点、断言或论证中的缺点。</p>
+<p>我们不能据此认定A的断言就是假的，仅凭怀疑就彻底否定一个断言，通常是不合理的。</p>
+<p><a name="AZZbE"></a></p>
+<h3 id="4-1-2-因人纳言型"><a href="#4-1-2-因人纳言型" class="headerlink" title="4.1.2  因人纳言型"></a>4.1.2  因人纳言型</h3><p>与人身攻击型诉诸人身相反，因人纳言型诉诸人身不是攻击别人，而是把对一个人的积极评价直接转移到他的观点上，这也是一种谬误。比如说“B是一个诚实的人，他说的话值得信任”。</p>
+<p>同样，B的诚实特性，只能增加其断言的可信性而已，我们不能因此认为B的断言都是真实的。因为一个人的优秀品质而接受或支持他的观点，即因人纳言，也是谬误。</p>
+<p><a name="7XBSX"></a></p>
+<h3 id="4-1-3-自相矛盾型"><a href="#4-1-3-自相矛盾型" class="headerlink" title="4.1.3  自相矛盾型"></a>4.1.3  自相矛盾型</h3><p>当我们因为一个人的断言与他自身的言论或行为相矛盾，就反驳这个人的断言时，就犯了这类谬误。</p>
+<blockquote>
+<p>比如，小王说“我最喜欢吃苹果和香蕉了”，但他却从来不吃苹果。我们可以据此认为小王其实不喜欢吃苹果，但不能因此认为小王不喜欢吃香蕉。小王的这种自相矛盾，只能让我们增加对“小王喜欢吃香蕉”的断言的怀疑。</p>
+</blockquote>
+<p><a name="VZfwx"></a></p>
+<h2 id="4-2-诉诸情感的谬误"><a href="#4-2-诉诸情感的谬误" class="headerlink" title="4.2  诉诸情感的谬误"></a>4.2  诉诸情感的谬误</h2><p>当我们在推理的过程中受到情感影响时，往往会做出不合逻辑的判断，这类错误，就叫诉诸情感的谬误。</p>
+<p><a name="EId93"></a></p>
+<h3 id="4-2-1-源自愤怒的“论证”"><a href="#4-2-1-源自愤怒的“论证”" class="headerlink" title="4.2.1  源自愤怒的“论证”"></a>4.2.1  源自愤怒的“论证”</h3><p>这类论证的不合逻辑之处，表现在两个方面：<br>第一，在实际并没有理由时，误以为已经获悉了愤怒的理由。比如，警察打人的新闻会引发我们的愤怒，一旦愤怒，人们就更可能“坚信”警察打人是事实。</p>
+<p>但实际上，人们并没有去评估新闻的真实性与可靠性，只是愤怒让他们误以为自己已经评估过了。</p>
+<p>第二，由一个人或事物所引起的愤怒，可能会影响我们对这个人，或者另一个无关的人或事物的评价。比如，我们对一个批评者的动机不纯感到愤怒，就很有可能对他所提出的批评表示排斥。</p>
+<p>但实际上，即使批评者的动机不纯，也并不影响他提出的建议可能是正确的。纵然一个人做了让我们恼火的事，我们既不能以此为理由低估这个人的其他方面，也不能以此为理由低估其他人。</p>
+<p><a name="7Doy4"></a></p>
+<h3 id="4-2-2-源自恐惧的“论证”"><a href="#4-2-2-源自恐惧的“论证”" class="headerlink" title="4.2.2  源自恐惧的“论证”"></a>4.2.2  源自恐惧的“论证”</h3><p>这里既包括让别人感到恐惧，也包括自己感到的恐惧。</p>
+<p>试图吓唬人们去做某事或接受某种立场，其实就是利用别人的恐惧来支撑自己的论证。此时威吓者做出的逻辑判断，就是谬误。同样，我们因恐惧而做出的逻辑判断，也是谬误。</p>
+<blockquote>
+<p>比如一个老板动不动就辱骂员工，人们因为怕他而不敢顶撞他，如果老板因为“没人反对他”，就得到“获得了大家的支持”判断，就是谬误；同理，此时员工因为自己“不反对老板”，就认为自己“支持老板”，也是谬误。</p>
+</blockquote>
+<p><a name="D7qdj"></a></p>
+<h3 id="4-2-3-基于其他情感的谬误。"><a href="#4-2-3-基于其他情感的谬误。" class="headerlink" title="4.2.3  基于其他情感的谬误。"></a>4.2.3  基于其他情感的谬误。</h3><p>除了愤怒和恐惧，还有其他情感也会成为推理中错误的来源。比如同情、妒忌、自负、负疚感、希望、渴望、厌恶等。</p>
+<p>这些诉诸情感的谬误具有共同特征：它们常常（虽然并不总是）包含你可称之为“前提”的断言，以及你可称为“结论”的断言；但这些“前提”并没有真正支持“结论”；相反，它们唤起一种情感，想让我们接受这个没有得到证据支持的结论。因此，它们虽然穿着“论证”的外衣，但其实是“说服”。</p>
+<p>一旦语言被用于唤起人们的情感，那么明智的做法就是，对于任何进驻我们头脑的“结论”，都要仔细考虑其是否已得到证据的支持。</p>
+<p><a name="MPH1R"></a></p>
+<h2 id="4-3-诉诸其它心理因素的谬误"><a href="#4-3-诉诸其它心理因素的谬误" class="headerlink" title="4.3  诉诸其它心理因素的谬误"></a>4.3  诉诸其它心理因素的谬误</h2><blockquote>
+<p>有一次，我一个同事因为周末在家没打扫卫生，而跟妻子发生了争吵。发生了如下的对话：<br>妻子：“你在家躺了一天，就不能打扫一下房间卫生吗？”<br>丈夫：“好不容易周末休息，平常上班太累。”<br>妻子：“你上班累，我照顾这个家就不累吗？又要打扫卫生，又要做饭，又要洗碗，还要接送女儿，你一回来就跟头猪一样躺在那儿啥也不干，你对这个家还有没有一点责任心？你以前不是这样的，现在一点都不心疼我，是不是觉得我人老珠黄没有吸引力了？工作日晚上也很晚回家，是不是在外面有了别的女人？你到底还爱不爱我？<br>丈夫：“我当然爱你啊，可是上班真的很累啊，周末想休息一下有什么问题？”<br>妻子：“别说上班辛苦，人家李经理上班不比你辛苦？可人家周末还有时间带家人去公园，带孩子去兴趣班，可你呢？就知道躺着。谁都知道你就是懒，还拿工作当借口。”<br>丈夫：“我也不是拿工作当借口，我周末休息好了，工作日才能更好地工作，工作有业绩，才能增加收入，最后受益的还是我们一家人啊。”</p>
+</blockquote>
+<p>之所以举这个例子，因为它很典型地说明了几个常见的诉诸其他心理因素的谬误。</p>
+<p><a name="SPoop"></a></p>
+<h3 id="4-3-1-转移注意力谬误"><a href="#4-3-1-转移注意力谬误" class="headerlink" title="4.3.1  转移注意力谬误"></a>4.3.1  转移注意力谬误</h3><p>起初是在论证“丈夫应该打扫房间卫生”，在丈夫做出解释的时候，正常的逻辑是讨论“上班太累”跟“打扫卫生”之间的关系，但是妻子犯了转移注意力谬误，让讨论从“打扫卫生”，转移到“照顾家庭”，然后又转移到“丈夫对家庭没有责任心”，最后转移到“丈夫不爱妻子”。</p>
+<p>我们发现，当出现转移注意力谬误时，人们就会偏离一开始论证的方向，前提相对不变，结论一直在变，那在此基础上进行的推理就是错误的。</p>
+<p><a name="XF11Q"></a></p>
+<h3 id="4-3-2-烟雾弹谬误"><a href="#4-3-2-烟雾弹谬误" class="headerlink" title="4.3.2  烟雾弹谬误"></a>4.3.2  烟雾弹谬误</h3><p>这个谬误和转移注意力之间的区别是很细微的，转移注意力是引入新话题，烟雾弹是堆砌问题，或者使问题复杂化。妻子一开始只是想解决丈夫不打扫卫生的问题，接着相继提出丈夫不顾家、不爱自己的问题，这些都是在堆砌问题而模糊一开始的论证目标。</p>
+<p>本质上来说，烟雾弹谬误也是一种转移注意力谬误。</p>
+<p><a name="kXy0U"></a></p>
+<h3 id="4-3-3-众所周知谬误"><a href="#4-3-3-众所周知谬误" class="headerlink" title="4.3.3  众所周知谬误"></a>4.3.3  众所周知谬误</h3><p>当人们在做断言的时候使用了“众所周知……”、“谁不知道……”、“……都这样”等修辞手法时，实际上就犯了众所周知错误，他们试图用一个并不存在的“支持率”来支撑其断言的可信性。妻子提到“谁都知道”时，就是犯了这个谬误。</p>
+<p><a name="odAyo"></a></p>
+<h3 id="4-3-4-合理化谬误"><a href="#4-3-4-合理化谬误" class="headerlink" title="4.3.4  合理化谬误"></a>4.3.4  合理化谬误</h3><p>当人们用虚假的托辞或牵强的理由来支撑自己的断言时，就犯了合理化谬误。比如妻子用“别人的丈夫如何如何”来证明“自己的丈夫应该如何如何”，或者丈夫用“周末好好休息”来证明“周一到周五才能好好工作”，都是犯了合理化谬误。</p>
+<p>因为这些前提实际上并不能支持结论，至少没有明显的证据证明其具有支持性。</p>
+<p><a name="6qU07"></a></p>
+<h2 id="4-4-以错制错的谬误"><a href="#4-4-以错制错的谬误" class="headerlink" title="4.4  以错制错的谬误"></a>4.4  以错制错的谬误</h2><blockquote>
+<p>假设你对楼上住户深夜来回踱步感到厌烦，为了报复，你租了一辆拖车把他们家的小汽车拖到河里去。</p>
+</blockquote>
+<p>从情绪的角度看，你们之间扯平了。从理性的角度看，你却犯了以错制错的谬误。</p>
+<p>他人所犯的错误．并不会使你的错误回应变得正当。他人的非法行为，也不会使你的非法应对变得合法。如果某行为是错的，它就是错的。错误的行为之间并不会相互抵消从而使其中一种错误消失。</p>
+<p>现实中存在一种普遍观念，即“报复主义”。根据报复主义，以伤害某人来报复他对你所造成的伤害，是可以接受的。但我们必须将合法的惩罚和非法的报复区分开来。如果认为对错误行为的任何报复都是正当的，就像前面提到的，因为邻居夜里太吵而损坏他的小汽车，那就显然是推理谬误。</p>
+<p>同时，以错制错谬误还有几种变形：</p>
+<ol>
+<li>如果报复的对象并不是事先犯错的那个人（如犯错者的兄弟或孩子），是一种谬误；</li>
+<li>以某人将要或可能会同样对待我们为由，来为我们伤害他作辩护，是另一种谬误；<ol>
+<li>例如，我们没有交还收银员多找给我们的钱，却辩护说：“如果情况倒过来”，收银员也不会把钱还给我们。</li>
+</ol>
+</li>
+<li>为免受面临的伤害而采取必要的措施，以此为由给自己的行为辩护，就不是谬误；<ol>
+<li>法律上叫“正当防卫”，也就是前面提到的合法的惩罚；</li>
+<li>为避免劫匪伤害你而殴打他，就是其例。</li>
+</ol>
+</li>
+</ol>
+<p><a name="nlcJK"></a></p>
+<h1 id="五、不总是青睐真相的人们"><a href="#五、不总是青睐真相的人们" class="headerlink" title="五、不总是青睐真相的人们"></a>五、不总是青睐真相的人们</h1><p>我们与生俱来地喜欢盐、脂肪和糖以及其他不利于健康的东西，与之类似，在接受信息的时候，我们也不总是青睐于最有利于我们的、最接近真相的信息。</p>
+<p>在形成断言的过程中，心理和本能所起到的作用与和客观证据所起的作用旗鼓相当。导致这一结果的主要原因之一，就是认知偏差。</p>
+<p><a name="5Bh1V"></a></p>
+<h2 id="5-1-认知偏差"><a href="#5-1-认知偏差" class="headerlink" title="5.1  认知偏差"></a>5.1  认知偏差</h2><p>认真的思考并不代表正确的思考，信念的形成过程总会掺杂一些难以察觉的人类固有的心理因素。</p>
+<p>心理学家把这些时常难以预见的心理因素导致我们对事物的判断出现偏差的情况，称作认知偏差。认知偏差扭曲着我们对现实的理解，干扰我们清晰、精确、客观思考的能力。</p>
+<p><a name="F3zRF"></a></p>
+<h2 id="5-2-信念偏差"><a href="#5-2-信念偏差" class="headerlink" title="5.2  信念偏差"></a>5.2  信念偏差</h2><p>所谓信念偏差，是指人们通过结论的可信度来判断一个推论正确与否的情况。</p>
+<blockquote>
+<p>先来看看下面的逻辑：<br>所有的狗都是动物，<br>德国牧羊犬是动物，<br>因此，德国牧羊犬是狗。</p>
+</blockquote>
+<p>很显然，这段话的逻辑是错误的。依照这段话的思路，你也可以得出“猫是狗”这样的谬论。然而，你真的一眼就看出以上那段话是错误的吗？</p>
+<p>可能你花了一段时间才发现其中的逻辑谬误，这是因为这段话的结论在主观上是正确的，而你更习惯于通过经验和主观标准做判断，这就犯了信念偏差。</p>
+<p><a name="UhCiK"></a></p>
+<h2 id="5-3-可得性启发"><a href="#5-3-可得性启发" class="headerlink" title="5.3  可得性启发"></a>5.3  可得性启发</h2><p>当人们无意识地依据刚提及的事件的频率来判断这件事发生的可能性时，就是可得性启发。</p>
+<blockquote>
+<p>比如，当看完很多起地震、坠机或者虐童的新闻后，你会整天想这些事，然后下意识锁定地震、坠机或者虐童情况来预测事件的可能性。</p>
+</blockquote>
+<p>你仔细想想，当马航的飞机出事后，你是不是比以往更担心自己乘坐的飞机会失联？当幼儿园虐童事件曝光后，你第一时间是不是觉得自己孩子上的幼儿园也很有可能发生类似的事？</p>
+<p>如果真是这样，你就犯了可得性启发的认知偏见，高估了这些事件发生的概率。</p>
+<p><a name="kIOzf"></a></p>
+<h2 id="5-4-从众效应"><a href="#5-4-从众效应" class="headerlink" title="5.4  从众效应"></a>5.4  从众效应</h2><p>本书作者做了一个实验，让学生用智能手机和遥控器来选择或投票。并在大屏幕上立即显示班内学生的选项或投票分布柱状图。结果常常是当一个选项获得一些投票，得票率高于其他选项后，几乎所有人都会跟着选择这一得票率高的选项，似乎大家都相信这一选项是对的，即使这个选项明显不符合逻辑。</p>
+<p>这种人们下意识让自己的想法向大多数人的想法靠拢的倾向，就是从众效应。</p>
+<p>这也就是为什么消费品广告总是千篇一律地宣称自己是销量第一。因为市场营销人员知道，只要让顾客相信很多人都在买他们的产品，销量就会增加。</p>
+<p><a name="2QPPE"></a></p>
+<h2 id="5-5-消极偏见"><a href="#5-5-消极偏见" class="headerlink" title="5.5  消极偏见"></a>5.5  消极偏见</h2><p>为了获得更多选民的支持，美国大选中的候选人常常会使用这样的断言——“没有人喜欢X”，“很多人都讨厌X”。</p>
+<p>比起“大家都喜欢Y”，政客们知道说X的坏话比说Y的好话更能让人们支持Y。</p>
+<p>这种人们相信消极信息多于积极信息的倾向，就是消极偏见。相比正面信息，我们的大脑神经对负面信息表现得更敏感和活跃。</p>
+<p>在经济学中有着消极偏见的一个推论，它讲到人们往往更愿意避免损失而不是积累收入，即损失规避。</p>
+<p><a name="gP4m2"></a></p>
+<h2 id="5-6-圈内效应"><a href="#5-6-圈内效应" class="headerlink" title="5.6  圈内效应"></a>5.6  圈内效应</h2><p><strong>人们对于那些和自己不是一个圈子的人，往往更容易对其形成负面意见；相反，对圈子内的人，人们却更有可能对其持有肯定的态度</strong>，这种现象，叫做圈内效应。</p>
+<blockquote>
+<p>比如有人说：“你们农村人总是随地吐痰，一点都不文明，不像我们城里人。”说这话的人用户口把人分成了两个圈子，在断言农村人不讲文明的同时，还给城里人贴上了讲文明的标签。</p>
+<p>实际上，农村人随地吐痰的频率或次数真的比城里人多吗？还真不一定，考虑到城市里农村人与城里人的人口比例，通常情况下，后者随地吐痰的频率或次数在大概率上是多于前者的。</p>
+</blockquote>
+<p>圈子的概念是广义的，任何同时具有相同属性的人都可以称他们是一个圈子的人。而任何可以用来识别人与人之间共同点的属性，都可以用来划分圈子。比如性别、星座、年龄、出生地、社团、教派、党派、国籍等等。</p>
+<p>实验结果显示，人与人之间并不需要多少共同点就能构建出一个组群的身份和归属感。就算是通过扔硬币的方式，被分到同一组的人们也会立刻对组内外的人产生圈内效应。</p>
+<p><a name="jrArc"></a></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>书中有一部分内容是“演绎论证”，虽然有用，但过于枯燥，有兴趣的小伙伴，可以自行进行阅读，建议结合一些基础的逻辑学教材来看，会比较顺畅。</p>
+<p>此外，书中还有一部分内容是关于道德、法律和美学的推理，本质上也是非常精彩的知识，但由于内容以西方价值观为主，且案例又都是以美国为主的西方历史文化，对于我们这些中国的读者来说过于抽象，比较难以领会。</p>
+<p>读完本书，并不能一劳永逸，毕竟批判性思维并不能让我们免于所有的思维错误。但若是我们自己有认真阅读这本书，那么我们一定会对批判性思维有更准确和全面的认识，对一些批判性思维方法有更充分的了解，同时我们的批判性思维能力势必是有进步的。</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.any1024.com" rel="external nofollow noreferrer">程一初</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.any1024.com/yuque/pi-pan-xing-si-wei/">http://www.any1024.com/yuque/pi-pan-xing-si-wei/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="http://www.any1024.com" target="_blank">程一初</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="wechat,qq,qzone,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赞赏是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://s1.ax1x.com/2020/03/16/8JpDYj.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://s1.ax1x.com/2020/03/16/8JpwTg.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '2e46538f1ae6c6e7084f',
+        clientSecret: '0cffe92ccde0d2da9135802e1c39cf55474e0fd1',
+        repo: 'ichengplus.github.io',
+        owner: 'ichengplus',
+        admin: "ichengplus",
+        id: '2020-03-11T13-08-52',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/yuque/feng-chuan/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="疯传">
+                        
+                        <span class="card-title">疯传</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+书籍信息全书名：《疯传：让你的产品、思想、行为像病毒一样入侵》作者名：[美]乔纳·伯杰 译者名：乔迪，王晋
+
+前言在市场环境中，传播是影响力的基础，一个不能传播的产品或创意是没有生命力的。
+我们身边潮流一般的爆点事情层出不穷，每过一段时间
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            程一初
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/yuque/xi-tong-si-kao/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="系统思考">
+                        
+                        <span class="card-title">系统思考</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+书籍信息全书名：《系统思考》英文名：《SEEING THE FOREST FOR THE TREES》作者名：[美]丹尼斯·舍伍德译者名：邱昭良，刘昕
+
+前言本书的分类标签是“企业”、“管理”，原因是里面讲述了许多商业管理的案例分析。但系
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            程一初
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="http://www.any1024.com" target="_blank">程一初</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">244.5k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备18017947号-2</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/ichengplus" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:yichu.cheng@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=394133964" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 394133964" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/any1024" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/any1024" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
